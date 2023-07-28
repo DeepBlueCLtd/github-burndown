@@ -1,5 +1,7 @@
 # GitHub Burndown Chart Generator
 
+![Burndown Chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vTOhfaDcSORmcH_LCzAVAkRcUvEZbz_DqZVo63WaSAmqwIy_CpSq1g-EQ2hM7-O_pM02HRcr_4S48f2/pubchart?oid=1341797319&format=image)
+
 ## Objective:
 The GitHub Burndown Chart Generator aims to create a burndown chart from GitHub issues using Google Sheets through the power of Apps Script.
 
