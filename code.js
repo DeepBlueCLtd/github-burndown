@@ -1,5 +1,3 @@
-const PROJECT_NUMBER = 3;
-const ORG_NAME = "DeepBlueCLtd"
 const DONE = "Done";
 const GITHUB_TOKEN=PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN")
 const CONFIG_SHEET_NAME = "CONFIG";
