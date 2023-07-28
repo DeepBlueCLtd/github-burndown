@@ -3,13 +3,17 @@
 ## Objective:
 The GitHub Burndown Chart Generator aims to create a burndown chart from GitHub issues using Google Sheets through the power of Apps Script.
 
-## How to Set GITHUB_TOKEN:
+## 1. Take a copy of Google Sheet
+Take a copy of the Burndown Google Sheet from [here](https://docs.google.com/spreadsheets/d/1gTMtb81DBfmPNpgBuIW8T_jtTSD5sqKeWvve1-_eX9E/edit?usp=sharing)
+
+## 2. Create and store GITHUB_TOKEN:
 1. Follow this guide to obtain your GitHub token: [GitHub - Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#personal-access-tokens-classic). For this script, you only need the `project: read:project` access.
     - This video provide step by step tutorial on generating github token [Youtube]https://www.youtube.com/watch?v=9lGcbQR4k4Y
 2. In Apps Script, go to Project Settings -> Edit Script Properties.
 3. Add a property named `GITHUB_TOKEN` and set its value as your GitHub token.
 
-## How to Fetch a GitHub API Token:
+## 3. Create timed trigger
+Create a timed event trigger in Google App Sheets, described here: https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers
 
 ## Process
 ![Process Diagram](assets/diagram.png)
