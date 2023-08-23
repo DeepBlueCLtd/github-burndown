@@ -129,7 +129,7 @@ function sumProjectHoursByStatus(github_token, variables, summary) {
   const pageInfo = resp.data.organization.projectV2.items.pageInfo;
   if (resp.data && pageInfo.hasNextPage) {
     variables.after = pageInfo.endCursor;
-    return sumProjectHoursByStatus(variables, summary);
+    return sumProjectHoursByStatus(GITHUB_TOKEN, variables, summary);
   }
 
   return summary;
